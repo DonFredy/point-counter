@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f3555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 600px;
+}
+
+.team {
+    text-align: center;
+    color: white;
+}
+
+.team h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-size: 5rem;
+    background-color: black;
+    color: red;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    min-width: 150px;
+}
+
+.buttons button {
+    font-size: 1.2rem;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #314e72;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #496c9c;
+}
+
+.new-game {
+    margin-top: 20px;
+}
+
+.new-game button {
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.new-game button:hover {
+    background-color: #ff784e;
+}
